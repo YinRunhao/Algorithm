@@ -8,7 +8,7 @@ namespace Algorithm
     {
         static void Main(string[] args)
         {
-            IAlgorithm test = new QuickSort();
+            IAlgorithm test = new Calculator();
             test.Execute();
         }
     }
