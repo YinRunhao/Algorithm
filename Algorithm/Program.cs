@@ -8,7 +8,7 @@ namespace Algorithm
     {
         static void Main(string[] args)
         {
-            IAlgorithm test = new Calculator();
+            IAlgorithm test = new DivingBoard();
             test.Execute();
         }
     }
